@@ -10,7 +10,7 @@
 <div class="madre">
     <!--PRIMERA CAJA-->
         <div class="caja">
-            <h2 class="SENA">RECUPERAR SU CONTRASEÑA</h2>
+            <h2 class="SENA">NoSE SU CONTRASEÑA</h2>
             <img class="imagen" src="Senalogo.png">
         </div>
 
