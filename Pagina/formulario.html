@@ -1,0 +1,87 @@
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Formulario de Ingreso</title>
+      <link rel="stylesheet" href="formulario.css" />
+    </head>
+    <body>
+      <div class="cabecera">
+        <h1>REGISTRESE</h1>
+        <h4>Llene los espacios con su informacion personal</h4>
+      </div>
+
+      <form method="post" action="" name="signup-form">
+        <section class="texto">
+          <div class="form-element">
+            <label>Nombre completo</label><br />
+            <input
+
+              type="text"
+              name="username"
+              pattern="[a-zA-Z0-9]+"
+              required
+            /><br />
+            <br />
+          </div>
+
+          <div class="form-element">
+            <label>Numero de documento</label><br />
+            <input type="number" name="Numero de documento" required /><br />
+            <br />
+          </div>
+
+          <div class="form-element">
+            <label>Email</label><br />
+            <input type="email" name="email" required /><br />
+            <br />
+          </div>
+
+          <div class="form-element">
+            <label>Contraseña</label><br />
+            <input type="password" name="Contrasena" required /><br />
+            <br />
+          </div>
+        </section>
+        
+        <section class="texto2">
+          <div class="perfil">
+            <a href="#"><img src="imagen/perfil.jpg" alt="" class="foto"></a>
+          </div>
+          <div class="texto-foto"><h3>Agrega una foto</h3></div>
+        </section>
+        <section class="texto"> 
+          <div class="form-element">
+            <label>Numero de ficha</label><br />
+            <input type="number" name="Numero de ficha" required /><br />
+            <br />
+          </div>
+
+          <div class="form-element">
+            <label>Tipo de sangre</label><br />
+            <input type="string" name="Tipo de sangre" required /><br />
+            <br />
+          </div>
+
+          <div class="form-element">
+            <label>Alergias o Enfermedades</label><br />
+           <!-- Textarea es como input tipo texto pero multilinea, cols son los caracteres horizontales y rows los berticales -->
+            <textarea name="alergias" cols="32" rows="6"></textarea>
+            <br />
+          </div>
+
+          <br />
+        </section>
+        <footer>
+        <button type="submit" name="register" value="register">
+          Registrar
+        </button>
+      </footer>
+      </form>
+    </body>
+  </html>
+</html>
+
+

@@ -1,0 +1,139 @@
+.madre{
+  position: relative;
+  height: 620px;
+  width: 1330px;
+  border:1px solid black;
+  background-color: #0cad14;
+  left: 10px;
+  top: 10px;
+}
+
+.caja{
+  position:relative;
+  border: 1px solid black;
+  left:0px;
+  top:0px;
+  background: #0cad14;
+  width: 499px;
+  height: 100px;
+}
+
+.sena{
+  position:relative;
+  left:150px;
+  top:-20px;
+  font-size: 3rem;
+  color: white;
+}
+
+.imagen{
+  width: 90px;
+  position:relative;
+  left:30px;
+  top:-540px;
+}
+
+.imagen1{
+  position: relative;
+  top:-20px;
+  left:-70px;
+  height: 500px;
+  width: 400px;
+}
+
+.box{
+  position:relative;
+  left:500px;
+  top:-103px;
+  color:white;
+  font-size:2.5rem;
+  background: #0cad14;
+  width: 829px;
+  height:101px;
+  border:1px solid black;
+}
+
+h1{
+  position:relative;
+  left:80px;
+  top:-50px;
+}
+
+form{
+  position: relative;
+  border:1px solid black;
+  left: 500px;
+  top:-104px;
+  width: 829px;
+  height:518px;
+  background:rgb(133, 255, 103);
+}
+
+.cc{
+  position: relative;
+  left:50px;
+  top:40px;
+  font-size: 2.5rem;
+}
+
+.ncc{
+  position: relative; 
+  border:1.5px solid black;
+  left:50px;
+  top:60px;
+  width: 650px;
+  height: 5px;
+  background:rgb(133, 255, 103);
+  font-size: 1rem;
+  font-family: arial;
+  padding: 20px;
+  color:black;
+}
+
+.contraseña{
+   position: relative;
+   left:50px;
+   top:80px;
+   font-size: 2.5rem;
+}
+
+.password{
+   position: relative; 
+   border:1.5px solid black;
+   left:50px;
+   top:100px;
+   width: 650px;
+   height: 5px;
+   background:rgb(133, 255, 103);
+   font-size: 1rem;
+   font-family: arial;
+   padding: 20px;
+   color:black;  
+}
+
+.button{
+  position:relative;
+  left:200px;
+  height: 50px;
+  width: 400px;
+  top:120px;
+  background:#0cad14;
+  border:2px solid black;
+  color:white;
+  font-size:2rem;
+}
+
+.permiso{
+  position: relative;
+  top:180px;
+  left: 50px;
+  font-size: 1.3rem;
+}
+
+.olvide{
+  position: relative;
+  top:180px;
+  left: 250px;
+  font-size: 1.3rem;
+}
+

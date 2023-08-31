@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASYGENZ</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="madre">
+    <!--PRIMERA CAJA-->
+        <div class="caja">
+            <h2 class="sena">SENA</h2>
+            <img class="imagen" src="imagen/Senalogo.png">
+            <img class="imagen1" src="imagen/imagen1.jpg">
+        </div>
+
+        <!--SEGUNDA CAJA-->
+        <div class="box">
+            <h1>INICIAR SESION</h1>
+        </div>
+
+        <!--FORMULARIO-->
+        <form action="login.php" method="post" name="signup-form">
+            <div class="form-element">
+                <label class="cc">NUMERO DE DOCUMENTO</label></br>
+                <input name="ncc" class="ncc"  type="number" required="required" placeholder="INGRESE NUMERO DE DOCUMENTO">
+            </div>
+            <div class="form-element">
+                <label class="contraseña">Contraseña</label></br>
+                <input name="password" class="password"  type="password" required="required" placeholder="INGRESE SU CONTRASEÑA">
+            </div>
+            </br><input class="button" type="submit" value="INGRESAR">
+            <div class="links">
+                <a class="permiso" href="#">SOLICITAR PERMISO</a>
+                <a class="olvide" href="contraseña.php">OLVIDE MI CONTRASEÑA</a>
+            </div>           
+        </form>
+    </div>
+ 
+</body>
+
+</html>

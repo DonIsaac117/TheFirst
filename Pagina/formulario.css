@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+    position: relative;
+    background: linear-gradient(150deg, red, orange,yellow,#16f102);
+    animation: BdGradient 5s ease infinite;
+}
+
+.cabecera {
+    background: #0cad14;
+    margin: 0 auto;
+    width: 60%;
+    padding: 12px;
+    border: 1px solid;
+    box-shadow: 4px 0 1px gray;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    font-style: oblique;
+    margin: 10px auto;
+}
+
+h4 {
+    color: rgb(248, 244, 244);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form {
+    background: rgb(133, 255, 103);
+    width: 60%;
+    margin: 0 auto;
+    padding: 12px 12px 40px 12px;
+    border: 1px solid;
+    box-shadow: 4px 4px 1px gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    margin-top: 10px;
+    flex-wrap: nowrap;
+}
+
+.texto{
+    flex: 2 1 auto;
+}
+
+.texto2{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    margin-left: 12px;
+    position: relative;
+    margin-top: 40px;
+    width: 120px;
+    height: 125px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 1px gray;
+    justify-content: center;
+    
+}
+.foto:hover{
+    width: 123px;
+    height: 128px;
+}
+
+.texto-foto{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 49px;
+    color: gray;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.texto2{
+    flex: 1 1 auto;
+}
+.s2{
+    margin-top: 13px;
+
+}
+label {
+    color: black;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+textarea {
+    resize: none;
+    background: rgb(197, 196, 196);
+    border: 1px solid black;
+    box-shadow: 3px 3px 1px rgb(80, 79, 79);
+}
+
+textarea:hover{
+    background: rgb(212, 210, 210);
+}
+
+input {
+    background: rgb(197, 196, 196);
+    border: 1px solid black;
+    padding: 6px 30px;
+    box-shadow: 3px 3px 1px rgb(80, 79, 79);
+}
+
+input:hover {
+    background: rgb(212, 210, 210);
+}
+
+
+/* Esto es para ocultar las flechas del input number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hace lo mismo que lo anterior pero para navegador Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+footer{
+    width: 100%;
+}
+button {
+    background: #0cad14;
+    border: 1px solid black;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px auto;
+    box-shadow: 3px 3px 1px rgb(80, 79, 79);
+    padding: 9px 22px;
+    justify-content: center;
+
+}
+
+
+button:hover {
+    background: #0dc016;
+}
