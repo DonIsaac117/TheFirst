@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    /*No me sirvio el codigo*/
     position: relative;
     background: linear-gradient(150deg, red, orange,yellow,#16f102);
     animation: BdGradient 5s ease infinite;
